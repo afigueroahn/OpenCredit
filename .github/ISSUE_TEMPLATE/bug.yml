@@ -1,0 +1,17 @@
+name: Error
+description: Reportar un problema reproducible
+title: "fix: "
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Versión, entorno y problema
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Pasos, resultado esperado y obtenido
+      description: Usar datos ficticios; no incluir secretos ni información personal.
+    validations:
+      required: true
