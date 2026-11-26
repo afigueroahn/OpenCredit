@@ -1,0 +1,16 @@
+name: Decisión
+description: Proponer una decisión técnica o de producto
+title: "decision: "
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto y decisión requerida
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Opciones, ventajas, riesgos y recomendación
+    validations:
+      required: true

@@ -1,0 +1,16 @@
+name: Funcionalidad
+description: Proponer una funcionalidad o mejora
+title: "feat: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema y objetivo
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Criterios de aceptación y fuera de alcance
+    validations:
+      required: true
